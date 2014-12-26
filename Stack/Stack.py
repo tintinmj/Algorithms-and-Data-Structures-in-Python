@@ -14,6 +14,9 @@ class Stack():
     def peek(self):
         """Returns the element at the top of the Stack """
         return self.items[-1]
+    def clear(self):
+        """Clear the Stack """
+        return self.items = []
 
 
 s = Stack()
